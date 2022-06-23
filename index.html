@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        <title>Welcome to Cherie's!</title>
+
+        <!-- (head) COPY mula dito -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" 
+             href="./css/img/favicon.ico">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' rel='stylesheet'>
+        
+        <!-- (head) COPY hanggang dito -->
+        
+    </head>
+    <body>
+        <!-- (body; for nav) COPY mula dito -->
+        <nav>
+            <div class="navbar">
+                <i class="bx bx-menu"></i>
+                <div class="logo">
+                    <a class="long" href="./index.html#"><img src="./css/img/hlogo.png"></a>
+                    <a class="smll" href="./index.html#"><img src="./css/img/cherieb.png"></a>
+                </div>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <span class="logo_name">
+                            <a class="long" href="./index.html#"><img src="./css/img/hlogo.png"></a>
+                        </span>
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <ul class="links">
+                        <li>
+                            <a href="./index.html#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="./about.html#">ABOUT</a>
+                            <i class='bx bxs-chevron-down ab-arrow'></i>
+                            <ul class="ab-sub-menu sub-menu">
+                                <li><a href="./about.html#">About Me</a></li>
+                                <li><a href="./about.html#ma">Mantra</a></li>
+                                <li><a href="./about.html#in">Introduction</a></li>
+                                <li><a href="./about.html#dj">Dream Job</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./ach.html#">ACHIEVEMENTS</a>
+                            <i class='bx bxs-chevron-down ac-arrow'></i>
+                            <ul class="ac-sub-menu sub-menu">
+                                <li><a href="./ach.html#">Education</a></li>
+                                <li><a href="./ach.html#ha">Honors & Awards</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./ski.html#">SKILLS</a>
+                        </li>
+                        <li>
+                            <a href="./contacts.html#">CONTACTS</a>
+                            <i class='bx bxs-chevron-down co-arrow'></i>
+                            <ul class="co-sub-menu sub-menu">
+                                <li><a href="./contacts.html#">References</a></li>
+                                <li><a href="./contacts.html#ci">Contact Info.</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- (body; for nav) COPY hanggang dito -->
+
+        <!--SLIDER 1-->
+        <div class="block-1">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="./css/img/b1s1.jpg">
+                    <div class="info">
+                        <img src="./css/img/clogo.png">
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./css/img/b1s2.jpg">
+                    <div class="info">
+                        <img src="./css/img/clogo.png">
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./css/img/b1s3.jpg">
+                    <div class="info">
+                        <img src="./css/img/clogo.png">
+                    </div>
+                </div>
+                <div class="navigation">
+                    <i class="fas fa-chevron-left prev-btn"></i>
+                    <i class="fas fa-chevron-right next-btn"></i>
+                </div>
+                <div class="navigation-visibility">
+                    <div class="slide-icon active"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--MARQUEE-->
+        <div class="block-2">
+            <marquee behavior="scroll" direction="left" scrollamount="5" loop="">
+                * ੈ✩‧₊˚ Greetings! * ੈ✩‧₊˚
+                I am Cherie Ann C. Nelmida and welcome to my Page! 
+                * ੈ✩‧₊˚ Nice meeting you! * ੈ✩‧₊˚ I am a Freshman Student taking a Bachelor's Degree 
+                in Electronics Engineering. They hope to be able 
+                to create programs and devices in the future that 
+                will contribute to the technology of the country.
+            </marquee>
+        </div>
+
+        <!--SLIDER 2-->
+        <div class="block-3">
+            <div class="image" id="model-1-image" style="background-image: url(./css/img/b1s1.jpg);">
+                <div class="image-text">
+                    <p>2019</p>
+                    <h4>STEM 11-5 Christmas Party</h4>
+    
+                    <div id="model-1" onclick="imagePop(id);"> <i class="fas fa-expand-alt expand"></i></div>
+                </div>
+            </div>
+            <div class="image" id="model-2-image" style="background-image: url(./css/img/b1s2.jpg);">
+                <div class="image-text">
+                    <p>2018</p>
+                    <h4>Casual Family Picture Booth</h4>
+    
+                    <div id="model-2" onclick="imagePop(id);"> <i class="fas fa-expand-alt expand"></i></div>
+                </div>
+            </div>
+            <div class="image" id="model-3-image" style="background-image: url(./css/img/b1s3.jpg);">
+                <div class="image-text">
+                    <p>2019</p>
+                    <h4>Moving Up Ceremony with Eytins</h4>
+    
+                    <div id="model-3" onclick="imagePop(id);"> <i class="fas fa-expand-alt expand"></i></div>
+                </div>
+            </div>
+            <div class="image" id="model-4-image" style="background-image: url(./css/img/me1.jpg);">
+                <div class="image-text">
+                    <p>2019</p>
+                    <h4>PUP Catwalk</h4>
+    
+                    <div id="model-4" onclick="imagePop(id);"> <i class="fas fa-expand-alt expand"></i></div>
+                </div>
+            </div>
+            <div class="image" id="model-5-image" style="background-image: url(./css/img/me2.jpg);">
+                <div class="image-text">
+                    <p>2019</p>
+                    <h4>In STEM 11-5 Classroom</h4>
+    
+                    <div id="model-5" onclick="imagePop(id);"> <i class="fas fa-expand-alt expand"></i></div>
+                </div>
+            </div>
+            <div class="image" id="model-6-image" style="background-image: url(./css/img/me3.jpg);">
+                <div class="image-text">
+                    <p>2021</p>
+                    <h4>Graduation Picture</h4>
+    
+                    <div id="model-6" onclick="imagePop(id);"> <i class="fas fa-expand-alt expand"></i></div>
+                </div>
+            </div>
+
+            <div class="imagePop" id="imagePopId">
+                <div class="click1" onclick="imageMoveLeft();"><i class="fas fa-arrow-alt-circle-left fa-3x"></i></div>
+                <div class="click2" onclick="imageMoveRight();"><i class="fas fa-arrow-alt-circle-right fa-3x"></i></div>
+                <div class="close" onclick="imagePopNone();"><i class="fas fa-times fa-3x"></i></div>
+
+                <div class="imagePopUnder" onclick="imagePopNone();"></div>
+
+                <div class="imageContain" id="imageContainId" onclick="imageChange(id);"></div>
+            </div>
+        </div>
+
+        <!--PREVIEWS-->
+        <div class="block-4">
+            Page Previews
+        </div>
+
+        <div class="block-5">
+            <div class="desc">
+                <a href="./about.html#"><img src="./css/img/me.png"></a>
+                <p><a>About Me</a><br>
+                    I'm Cherie Ann C. Nelmida. 18 years old. In this section of 
+                    my page you will know about my date of bith, place of birth, mantra, 
+                    dream job and more! </p>
+            </div>
+            <div class="desc">
+                <a href="./ski.html#"><img src="./css/img/sk.png"></a>
+                <p><a>Skills</a><br>
+                    In this Skills section, all of the skills I honed throughout my life 
+                    are listed. These skills will be my tools to be able to serve my country 
+                    and the industry I belong to. </p>
+            </div>
+            <div class="desc">
+                <a href="./ach.html#"><img src="./css/img/ach.png"></a>
+                <p><a>Achievements</a><br>
+                    Here in the Achievements Section you will see my educational attainment 
+                    and other honorable awards throughout my academic journey.  </p>
+            </div>
+            <div class="desc">
+                <a href="./contacts.html#"><img src="./css/img/phone.png"></a>
+                <p><a>Contacts</a><br>All ways of contacting me can be seen in this section: my address, phone 
+                    numbers, e-mail, social media, etc. Reference persons of my accomplishments  
+                    will also be in this section. </p>
+            </div>
+            <br><br><br>
+        </div>
+
+        <div id="ci" class="block-19">
+            <div class="block-19-container">
+                <div class="block-19-text">
+                    <p class="block-19-title-para"><br>
+                        <a>Check out what I'm listening to!</a></p>
+                </div>
+                <div class="block-19-maps">
+                    <iframe width="100%" height="100%" 
+                    src="https://www.youtube.com/embed/L4SoJzhaOj4" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <!-- (body; for content) hanggang dito --> 
+        
+    
+    <!-- (body; for content) COPY mula dito -->
+    <div class="footer-container">
+
+        <div class="footer-item">    
+            <div class="under">
+                <h3>Index</h3><br>
+                <a href="./index.html#">Home</a><br>
+                <a href="./about.html#">About<br></a>
+                <a href="./ach.html#">Achievements<br></a>
+                <a href="./ski.html#">Skills<br></a>
+                <a href="./contacts.html#">Contacts</a>
+            </div>     
+        </div>
+            
+        <div class="footer-item abt">
+            <div class="under">
+                <h3>About Cherie's</h3><br>
+                <p class="abt">
+                    A Freshman Student taking a Bachelor's Degree 
+                    in Electronics Engineering. They hope to be able 
+                    to create programs and devices in the future that 
+                    will contribute to the technology of the country.
+                <br><a href="./about.html#"><b>Read More.</b></a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-item">
+            <div class="under"><br>
+                <br><h3>Message me on</h3><br>
+                <p>+(63)915 273 0560<br>
+                    cherieann.nelmida@tup.edu.ph</p>
+            </div>
+        </div>
+
+        <div class="footer-item">
+            <div class="image">
+            <img src="./css/img/flogo.png" width="200"><br>
+            <a href="mailto: cherieann.nelmida@tup.edu.ph"><img src="./css/img/email.png" width="30"></a>
+            <a href="https://www.facebook.com/sereeendipity"><img src="./css/img/fb.png" width="30"></a>
+            <a href="https://twitter.com/ttcheriett"><img src="./css/img/twt.png" width="30"></a>
+            <a href="https://www.instagram.com/ttcheriett/"><img src="./css/img/ig.png" width="30"></a>
+            </div> 
+        </div>
+
+        <div class="footer-item ico">
+            <a href="mailto: cherieann.nelmida@tup.edu.ph"><img src="./css/img/email.png" width="40"></a>
+            <a href="https://www.facebook.com/sereeendipity"><img src="./css/img/fb.png" width="40"></a>
+            <a href="https://twitter.com/ttcheriett"><img src="./css/img/twt.png" width="40"></a>
+            <a href="https://www.instagram.com/ttcheriett/"><img src="./css/img/ig.png" width="40"></a>
+            </div>
+        </div>
+
+        <div class="footer-copy"><br>
+            <p>Copyright © 2022. Cherie's. Cherie Ann C. Nelmida. Quezon City, Philippines</p>
+        </div>
+
+    </div>
+    <!-- (body; for footer) COPY hanggang dito -->
+
+    <script src="./js/header.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/gallery.js"></script>
+    </body>
+</html>

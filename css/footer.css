@@ -1,0 +1,121 @@
+/*footer*/
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #323137;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, .2);
+}   
+
+.under{
+    color: #CDAA8F;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.under p{
+    font-family: Poppins;
+}
+.under a{
+    color: #CDAA8F;
+    font-family: Poppins;
+    text-decoration: none;
+}
+.under a:hover {
+    color: #9B7B61;
+    background-color: #323137;
+}
+.footer-item{
+    width: 20%;
+    height: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    background: #323137;
+}
+.footer-copy p{
+    color: #CDAA8F;
+    font-family: Poppins;
+}
+.footer-copy{
+    width: 100%;
+    text-align: center;
+    background: #323137;
+}
+.image a{
+    padding-inline: 8px;
+}
+.image a:hover{
+    filter: brightness(.7);
+}
+.abt{
+    margin-left: -8%;
+    text-align: justify;
+    max-width: 350px;
+    font-size: 15px;
+}
+.abt h3{
+    text-align: left;
+    margin-left: -8%;
+}
+.ico{
+    display: none;
+}
+@media (max-width: 992px){
+    .footer-item{
+        width:40%;
+        height: auto;   
+    }
+    .under a{
+        color: #CDAA8F;
+    }
+}
+@media (max-width: 858px){
+    .footer-item{
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        position: relative;
+        width: auto;
+    }
+    .under {
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .under a{
+        color: #CDAA8F;
+    }
+    .image{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .abt{
+        margin-left: 0%;
+    }
+    .abt h3{
+        margin-left: 0%;
+    }
+    .image a{
+        display: none;
+    }
+    .footer-copy p{
+        font-size: 14px;
+    }
+    .ico{
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+    }
+    .ico a{
+        width: 100%;
+        padding-inline: 20px;
+    }
+    .ico a:hover{
+        filter: brightness(.7);
+    }
+}

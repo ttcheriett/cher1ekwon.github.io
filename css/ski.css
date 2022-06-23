@@ -1,0 +1,106 @@
+/*BLOCK-15*/
+.block-15{
+    width: 100%;
+    height: auto;
+    background: #F3F0ED;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 35rem));
+    font-family: Poppins;
+    color: #323137;
+    grid-gap: 40px;
+    justify-content: center;
+    padding-top: 9vh;
+    padding-bottom: 10vh;
+}
+.block-15 .desc{
+    text-align: justify;
+    position: relative;
+    display: flex;
+    max-width: 600px;
+    background-color: #323137;
+    padding: 3%;
+    margin-inline: 5%;
+    align-items: center;
+}
+.block-15 .desc a:hover{
+    filter: brightness(.7);
+    cursor: default;
+    transition: .3s ease;
+}
+.block-15 .desc p{
+    font-family: Poppins;
+    position: relative;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #F3F0ED;
+}
+.block-15 .desc p a{
+    font-family: Poppins Bold;
+    position: relative;
+    font-size: 30px;
+}
+@media screen and (min-width: 858) {
+    .block-5 .desc{
+        margin-inline: 10%;
+    }
+    .block-5 .desc p{
+        font-size: 10px;
+    }
+    .block-5 .desc p a{
+        font-size: 13px;
+    }
+}
+
+/*BLOCK 16*/
+.block-16-container{
+    background-color: #323137;
+    padding-bottom: 15vh;
+}
+.block-16-container p{
+    background-color: #323137;
+    font-family: Poppins Bold;
+    font-size: 40px;
+    color: #F3F0ED;
+}
+.block-16 iframe{
+    padding-inline: 10%;
+    border-style: none;
+}
+
+/*BLOCK 17*/
+.block-17{
+    background-color: #323137;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.block-17-container{
+    background-color: #323137;
+    padding-bottom: 15vh;
+}
+.block-17-container p{
+    background-color: #323137;
+    font-family: Poppins Bold;
+    font-size: 40px;
+    color: #F3F0ED;
+}
+.block-17-container .fb-video{
+    position: relative;
+    width: 460px;
+}
+
+@media (max-width: 480px){
+    .block-17-container p{
+        padding: 5%;
+        font-size: 25px;
+    }
+    .block-16-container p{
+        font-size: 25px;
+        padding: 5%;
+    }
+    .block-17-container .fb-video{
+        width: 280px;
+    }
+}
+
